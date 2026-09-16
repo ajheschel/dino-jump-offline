@@ -1,0 +1,8 @@
+{
+  "name": "Dino Jump",
+  "description": "A camera-controlled dinosaur jumping game powered by local MediaPipe pose detection.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

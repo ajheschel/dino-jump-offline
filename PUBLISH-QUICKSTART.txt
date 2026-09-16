@@ -1,0 +1,13 @@
+DINO JUMP - GITHUB PAGES QUICK START
+
+1. Create a new GitHub repository.
+2. Upload EVERYTHING in this folder, including the hidden .github folder.
+3. Commit/push to the main branch.
+4. Open repository Settings > Pages.
+5. Set Source to "GitHub Actions".
+6. Open Actions and wait for "Deploy Dino Jump to GitHub Pages" to finish.
+7. Open the Pages URL and allow camera access.
+8. On the first visit, stay online until the badge says "Offline ready".
+9. After that, the game can be reopened/refreshed offline unless the browser clears its site cache.
+
+Visitors need only the URL and a modern browser. They do not need Node.js or a GitHub account.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="theme-color" content="#f7f7f7" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Dino Jump" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self' blob:; font-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
+  <title>Dino Jump</title>
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div id="offline-status" class="offline-status" role="status" aria-live="polite" hidden></div>
+  <div id="root"></div>
+  <script type="module" src="./index.tsx"></script>
+</body>
+</html>
